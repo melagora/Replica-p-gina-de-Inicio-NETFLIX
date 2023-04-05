@@ -1,0 +1,129 @@
+/*ESTILOS GENERALES*/
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.03em;
+
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+/*GENERAL*/
+/*FONDO*/
+html, body, .cover{
+    height: 100%;
+}
+
+.cabecera datagrid{
+    margin-top:8%;
+}
+
+.cabecera datagrid h2, h3{
+    margin-top: 2.5%;
+}
+
+.cover{
+    background: url(/img/FondoNetflixSV.jpg);
+    background-size: 120%;
+    background-position-x:50%;
+    background-position-y:70%;
+}
+
+section.cabecera{
+    background: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: linear-gradient(to top,rgba(0,0,0,1)0%, rgba(0,0,0,0.5)60%, rgba(0,0,0,1)100%);
+}
+
+/*GENERAL*/
+/*CABECERA*/
+
+nav{
+    margin: 0 2rem;
+    padding-top: 35px;
+}
+
+div.logo{
+    float: left;
+}
+
+/*BOTON INICIAR SESION*/
+
+div.login{
+    float: right;
+}
+
+div.login span{
+    padding: 7px 17px;
+    background: #e50914;
+    border-radius: 4px;
+}
+
+div.login:hover{
+    cursor: pointer;
+}
+
+/*TODO EL TEXTO PRINCIPAL ARRIBA*/
+.presentacion{
+    padding-top: 0.3%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+}
+
+/*EMAIL INICIAL*/
+.presentacion input{
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    font-weight: 300;
+    height: 50px ;
+    width: 380px;
+    margin-top: 15px;
+    border: solid 1px rgb(142, 142, 142);
+}
+
+
+/*BOTON COMENZAR*/
+.cabecera datagrid span{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 0.9%;
+    padding-bottom: 1.5%;
+    background: #e50914;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.cabecera datagrid span:hover{
+    cursor: pointer;
+}
