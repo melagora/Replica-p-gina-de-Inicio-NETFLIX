@@ -37,12 +37,7 @@ section{
 
 section div.contenido{
     width: 1100px;
-    border: solid blue;
     margin: auto;
-}
-
-section div.contenido div{
-    border: solid yellow;
 }
 
 .restaurar{
@@ -174,7 +169,7 @@ div.login:hover{
     width: 39%;
 }
 
-.tv img{
+.contenido img{
     width: 100%;
     height: auto;
     border: 0;
@@ -182,18 +177,40 @@ div.login:hover{
     z-index: 2;
 }
 
-.tv h2{
+.contenido h2{
     font-weight: bold;
     font-size: 50px;
 }
 
-.tv p{
+.contenido p{
     font-size: 25px;
     font-weight: 200px;
 }
 
-.tv .izquierda{
-    margin-top: 90px;
+.tv .contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disfruta .contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descarga .flotanteTexto{
+    margin-top: 5% ;
+}
+
+.perfilNiños .flotanteTexto{
+    margin-top: 7% ;
+}
+
+.tarjetaInt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tv video{
@@ -202,4 +219,5 @@ div.login:hover{
     width: 312px;
     z-index: 1;
 }
+
 /*TV*/
