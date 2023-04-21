@@ -128,7 +128,7 @@ div.login:hover{
 
 
 /*BOTON COMENZAR*/
-.cabecera datagrid span{
+.cabecera datagrid span, .contPreguntas span{
     font-size: 1.5rem;
     font-weight: bolder;
     padding-right: 30px;
@@ -140,7 +140,7 @@ div.login:hover{
     margin-left: 5px;
 }
 
-.cabecera datagrid span:hover{
+.cabecera datagrid span:hover, .contPreguntas span:hover{
     cursor: pointer;
 }
 
@@ -221,3 +221,92 @@ div.login:hover{
 }
 
 /*TV*/
+/*PREGUNTAS*/
+
+.preguntas h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.contPreguntas{
+    width: 815px;
+    margin: auto;
+    text-align: center;
+}
+
+.contPreguntas div{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.pregunta{
+    background-color: #303030;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.respuesta{
+    background-color: #303030;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.pregunta p, .respuesta{
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.respuesta hr{
+    border: 1px solid #474747;
+}
+
+.pregunta:hover .respuesta{
+    max-height: 1000px;
+}
+
+.respuesta{
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.contPreguntas input{
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    font-weight: 300;
+    height: 50px ;
+    width: 380px;
+    margin-top: 15px;
+    border: solid 1px rgb(142, 142, 142);
+}
+/*PREGUNTAS*/
+
+.contPreguntas h3{
+    font-size: 15px;
+}
+
+.pie .contacto{
+    width: 815px;
+    margin: auto;
+    text-align: left;
+    font-size: 16px;
+}
+
+.pie .contPreguntas div{
+    columns: 4 10px;
+    font-size: 11px;
+}
+
+.pie{
+    font-size: 10px;
+}
+
+.pie .elsalvador{
+    width: 815px;
+    margin: auto;
+    text-align: left;
+    font-size: 12px;
+}
